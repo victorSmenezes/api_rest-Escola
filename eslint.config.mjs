@@ -17,6 +17,7 @@ export default defineConfig([
   ...compat.extends("airbnb"),
   ...compat.config({ rules: { "no-console": "off",
     "class-methods-use-this": "off",
+    "import/first": "off",
    } }),
 ]);
 
